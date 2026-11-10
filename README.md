@@ -19,7 +19,7 @@ pluggable; PUBG (PC) and Valorant profiles are included.
 
 ClutchCut was built for, and is used on, the YouTube channel
 **[iNviSi Gaming](https://www.youtube.com/@invisigaming8559?sub_confirmation=1)**: PUBG (PC) and
-Valorant streams with squad banter in Kannada and English. These were made with this repo:
+Valorant streams with squad banter in Hindi, Kannada and English. These were made with this repo:
 
 | Meme edit (`make_edit.py`) | PUBG montage (`beat_montage.py`) | Valorant montage (`beat_montage.py`) |
 |---|---|---|
