@@ -7,6 +7,8 @@ Claude can't watch a 2-hour video. So ClutchCut gives it eyes: local models and 
 stream into text, numbers and contact sheets; Claude reads those, zooms in on the moments that matter, and
 writes edit recipes; Python + ffmpeg render them; you review, and your feedback becomes the next run's rules.
 
+📖 **The story behind it:** [I wanted Claude to watch my streams. It can't, so I gave it eyes.](https://medium.com/@bhaskars.co/i-wanted-claude-to-watch-my-streams-it-cant-so-i-gave-it-eyes-8ca07e94f613)
+
 Works with any spoken language Whisper supports (auto-detected by default). Game-specific HUD reading is
 pluggable; PUBG Mobile/BGMI and Valorant profiles are included.
 
@@ -216,5 +218,5 @@ see [docs/licenses.md](docs/licenses.md), including how to source and credit mus
 
 Made by **Bhaskar N Prasad** ([GitHub](https://github.com/Bhaskar-N-Prasad) ·
 [iNviSi Gaming on YouTube](https://www.youtube.com/@invisigaming8559?sub_confirmation=1)).
-The story of how it was built, including what failed: [Medium article](TODO-medium-link).
+The story of how it was built, including what failed: [I wanted Claude to watch my streams. It can't, so I gave it eyes.](https://medium.com/@bhaskars.co/i-wanted-claude-to-watch-my-streams-it-cant-so-i-gave-it-eyes-8ca07e94f613) (Medium).
 Issues and pull requests are welcome, especially new game profiles and speech models for other languages.
