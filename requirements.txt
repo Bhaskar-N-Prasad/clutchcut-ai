@@ -1,0 +1,18 @@
+# Install PyTorch first, matched to your GPU/driver (setup.ps1 does this), e.g.:
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
+# Versions below are the ones ClutchCut was developed and tested with.
+faster-whisper>=1.2
+demucs>=4.0
+panns-inference>=0.1.1
+torchlibrosa>=0.1.0
+librosa>=0.10
+soundfile>=0.12
+numpy>=1.26
+pillow>=10.1
+ollama>=0.4
+# Converting a per-language Whisper fine-tune (asr_models.json) to CTranslate2 needs transformers once per model.
+transformers>=4.40
+# CUDA libraries for faster-whisper (CTranslate2) on Windows/Linux with an NVIDIA GPU.
+# Proprietary NVIDIA licence; downloaded from PyPI by you, not shipped with ClutchCut.
+nvidia-cublas-cu12; platform_system != "Darwin"
+nvidia-cudnn-cu12; platform_system != "Darwin"

@@ -1,0 +1,7 @@
+{
+  "_about": "Per-language speech models used by `prepare.py --asr-model auto`. Key: Whisper language code. Value: a Hugging Face Whisper fine-tune (converted to CTranslate2 on first use) or a local CTranslate2 model folder. Languages not listed use Whisper large-v3. Only add a model after it beats large-v3 on your own audio in scripts/asr_compare.py, and check its licence on the model card.",
+  "kn": {
+    "model": "ARTPARK-IISc/whisper-medium-vaani-kannada",
+    "note": "Kannada. In a 6-minute test on noisy game voice chat it gave readable sentences where large-v3 mostly did not, and ran about 16x faster. No word timestamps."
+  }
+}
