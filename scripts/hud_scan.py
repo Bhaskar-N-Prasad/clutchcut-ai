@@ -1,7 +1,7 @@
 """Find moments by reading the game's HUD from the 1 fps frames: no GPU, seconds to a minute for 2 hours.
 
 Usage:
-  python hud_scan.py --name <stream-name> [--game pubg_mobile|valorant] [--from 18:00] [--until 1:50:00]
+  python hud_scan.py --name <stream-name> [--game pubg|valorant] [--from 18:00] [--until 1:50:00]
   python hud_scan.py --list                       # show the available game profiles
 
 The game defaults to the one given to prepare.py (--game). Writes streams/<name>/<profile OUTPUT>

@@ -1,14 +1,14 @@
-"""PUBG Mobile / BGMI squad panel: a knocked player's health bar (bottom left) turns solid red.
+"""PUBG: Battlegrounds (PC) squad panel: a knocked player's health bar (bottom left) turns solid red.
 
-Measured on 1080p emulator recordings with the default HUD layout, scaled to the 960x540 frames prepare.py
-writes. A different HUD layout, a phone recording with a different aspect ratio, or PUBG on PC will need the
-coordinates below re-measured (docs/adding-a-game.md shows how).
+Measured on 1080p PUBG PC recordings with the default HUD layout, scaled to the 960x540 frames prepare.py
+writes. A different HUD scale, an ultrawide or non-16:9 recording, or another game will need the coordinates
+below re-measured (docs/adding-a-game.md shows how).
 """
 from PIL import Image
 
-NAME = "pubg_mobile"
-ALIASES = ("bgmi", "pubgm", "pubg")
-TITLE = "PUBG Mobile / BGMI: knocks from the squad panel health bars"
+NAME = "pubg"
+ALIASES = ("pubg_pc", "battlegrounds")
+TITLE = "PUBG: knocks from the squad panel health bars (PUBG: Battlegrounds, PC)"
 REF_SIZE = (960, 540)
 OUTPUT = "knocks.json"
 
@@ -17,7 +17,7 @@ ROW_Y = [467, 486, 505, 524]
 BAR_X = (17, 128)
 PANEL_BOX = (0, 450, 170, 535)  # the whole panel, for the knock contact sheet
 
-WATCH_HINTS = """This is PUBG Mobile / BGMI (battle royale, squads of 4). Useful things to look for on screen:
+WATCH_HINTS = """This is PUBG: Battlegrounds on PC (battle royale, squads of 4). Useful things to look for on screen:
 - Kill/knock notifications ("You knocked out <name>", "You finished <name>", "<name> knocked out <name> with <gun>"),
   headshot markers, the streamer's kill counter.
 - Fights: aiming down sights, muzzle flash, damage numbers, enemies visible, hit markers, throwables, vehicle chases.

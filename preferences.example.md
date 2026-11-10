@@ -5,7 +5,7 @@ and adds to it after each round of your feedback. Copy this file to `preferences
 and replace the examples with your own.
 
 ## Channel
-- Game(s): e.g. Valorant, PUBG Mobile. Solo / duo / squad.
+- Game(s): e.g. Valorant, PUBG. Solo / duo / squad.
 - Spoken language on stream: e.g. Hindi mixed with English (or "auto").
 - Caption language for the audience: e.g. English. Captions should carry the emotion, not translate literally.
 - Facecam: yes / no. Live chat worth showing: yes / no.

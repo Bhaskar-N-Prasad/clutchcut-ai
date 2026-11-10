@@ -1,12 +1,12 @@
 # Adding a game profile
 
 A game profile teaches ClutchCut to read one game's HUD from the 1 fps frames `prepare.py` writes. It is the
-cheapest, most reliable signal in the whole pipeline: the PUBG Mobile panel scan lists the knocks in a 2-hour
+cheapest, most reliable signal in the whole pipeline: the PUBG panel scan lists the knocks in a 2-hour
 stream in seconds, where watching everything with a vision model took hours. Two profiles ship today:
 
 | Profile | Reads | Output |
 |---|---|---|
-| `pubg_mobile` (aliases `bgmi`, `pubg`) | squad panel health bars turning red (bottom left) | `knocks.json` |
+| `pubg` (PUBG: Battlegrounds, PC; aliases `pubg_pc`, `battlegrounds`) | squad panel health bars turning red (bottom left) | `knocks.json` |
 | `valorant` | kill-feed row colours and the streamer's outline (top right) | `kills.json` |
 
 Both were measured on **one creator's 1080p recordings with default HUD settings**. If yours differ, expect to

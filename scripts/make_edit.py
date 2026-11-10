@@ -5,7 +5,7 @@ Usage:
 
 streams/<name>/<edit>.json:
   {"out": "meme", "music": "music/track.mp3", "music_volume": 0.2, "music_start": 0, "source_volume": 1,
-   "game": "pubg_mobile",                                    # optional; defaults to the stream's settings.json
+   "game": "pubg",                                           # optional; defaults to the stream's settings.json
    "title": ["LINE ONE", "LINE TWO"],
    "beats": [{"start": 799, "dur": 5, "mode": "square",      # square = crop around the crosshair (crop_x moves it), fit = whole screen
               "hud": "panel",                                 # enlarge a HUD region from the game profile's OVERLAYS
@@ -35,7 +35,7 @@ import games  # noqa: E402
 W, H = 1080, 1920
 EMOJI = re.compile("([\U0001F300-\U0001FAFF☀-➿]+️?)")
 THUD = "sin(2*PI*(90-70*t)*t)*exp(-7*t)"
-LEGACY_HUD = {"panel": "pubg_mobile", "feed": "valorant"}  # old beat keys -> the profile that defines them
+LEGACY_HUD = {"panel": "pubg", "feed": "valorant"}  # old beat keys -> the profile that defines them
 
 
 def runs(text, size):

@@ -2,7 +2,7 @@
 
 Usage:
   python prepare.py <youtube-url-or-file> --name <short-name> [--language auto|en|hi|kn|es|...]
-                    [--game pubg_mobile|valorant] [--force] [--sheets]
+                    [--game pubg|valorant] [--force] [--sheets]
 
 --language is any Whisper language code; the default "auto" lets Whisper detect it from the first
 10 minutes of speech and keeps it for the rest (mixed-language talk can otherwise flip between chunks).

@@ -36,7 +36,7 @@ Only download videos the user owns or has permission to use.
 
 ## 2. Find moments cheaply (seconds, no GPU)
 If the game has a profile (`scripts/hud_scan.py --list`): `scripts/hud_scan.py --name <name>`. It writes e.g.
-`knocks.json` (PUBG Mobile squad panel) or `kills.json` (Valorant kill feed). Start from these.
+`knocks.json` (PUBG squad panel) or `kills.json` (Valorant kill feed). Start from these.
 
 ## 3. Local watch (optional, slow: hours for a full stream)
 `scripts/local_watch.py --name <name> [--only seg03,seg07]`: Qwen watches segments and writes `watch_log/`

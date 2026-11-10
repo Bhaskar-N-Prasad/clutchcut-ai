@@ -8,7 +8,7 @@ usual place. Then start OBS with launch_obs.cmd instead of your usual shortcut. 
          [--since 12h]       only streams that started after this (12h, 2d, 2026-11-10, or a unix time)
          [--url URL]         use this video instead of looking on the channel
          [--dry-run]         check and ask for real, but only print what would run; writes to autorun/dryrun/
-         [--answer start|later|skip --moments TEXT --start 9:00 --games valorant,pubg_mobile]   no window
+         [--answer start|later|skip --moments TEXT --start 9:00 --games valorant,pubg]   no window
   autorun.py run --job autorun/jobs/<name>.json   the pipeline itself (opens in its own window after you say Start)
   autorun.py pending     ask again about streams you answered "Later" to (for example after a restart)
 

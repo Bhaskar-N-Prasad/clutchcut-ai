@@ -10,7 +10,7 @@ writes edit recipes; Python + ffmpeg render them; you review, and your feedback 
 📖 **The story behind it:** [I wanted Claude to watch my streams. It can't, so I gave it eyes.](https://medium.com/@bhaskars.co/i-wanted-claude-to-watch-my-streams-it-cant-so-i-gave-it-eyes-8ca07e94f613)
 
 Works with any spoken language Whisper supports (auto-detected by default). Game-specific HUD reading is
-pluggable; PUBG Mobile/BGMI and Valorant profiles are included.
+pluggable; PUBG (PC) and Valorant profiles are included.
 
 > **Status:** a personal tool, published as-is. Tested on **one machine**: Windows 11, an RTX 5060 Ti (16 GB),
 > 1080p streams. Expect rough edges anywhere else.
@@ -18,7 +18,7 @@ pluggable; PUBG Mobile/BGMI and Valorant profiles are included.
 ## See it in action
 
 ClutchCut was built for, and is used on, the YouTube channel
-**[iNviSi Gaming](https://www.youtube.com/@invisigaming8559?sub_confirmation=1)**: PUBG Mobile/BGMI and
+**[iNviSi Gaming](https://www.youtube.com/@invisigaming8559?sub_confirmation=1)**: PUBG (PC) and
 Valorant streams with squad banter in Kannada and English. These were made with this repo:
 
 | Meme edit (`make_edit.py`) | PUBG montage (`beat_montage.py`) | Valorant montage (`beat_montage.py`) |

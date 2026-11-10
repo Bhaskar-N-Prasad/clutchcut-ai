@@ -48,6 +48,12 @@ for _exe in filter(None, os.environ.get("CLUTCHCUT_BUSY", "").lower().split(",")
 if str(REPO) not in sys.path:
     sys.path.insert(0, str(REPO))  # so scripts can `import games`
 
+for _stream in (sys.stdout, sys.stderr):
+    try:  # Windows consoles/pipes may use a code page without emoji; print a '?' instead of crashing
+        _stream.reconfigure(errors="replace")
+    except (AttributeError, ValueError):
+        pass
+
 
 def stream_dir(name):
     """streams/<name>/ for one stream."""
